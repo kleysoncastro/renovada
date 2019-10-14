@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(5, 132, 141);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 20px 0;
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 5px;
+}
+
+.input-email {
+  color: #ccc;
+}
+.input-password {
+  color: #ccc;
+}
+
+.bt {
+  margin-top: 15px;
+  cursor: pointer;
+}
